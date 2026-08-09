@@ -34,6 +34,7 @@
 
 </div>
 
+**Languages:** [English](README.md) | [한국어](README_kor.md) · [한국어 학습 가이드](guide/README.md)
 
 NVIDIA-labs OO Agents (NOOA) is a model-agnostic Python framework designed to support reliable AI agent development. Many agent frameworks represent prompts, tools, callbacks, and workflows as separate abstractions. NOOA offers an alternative object-oriented interface that brings these concepts together in a Python class. NOOA lets developers express an agent’s state, capabilities, prompts, and typed interfaces through a single Python class:
 
@@ -195,6 +196,7 @@ If the viewer isn't running, tracing is silently disabled — no configuration n
 
 ## Learn more
 
+- **[한국어 README](README_kor.md) / [한국어 학습 가이드](guide/README.md)** — 설치부터 안전한 agent 설계, tracing, testing과 운영까지.
 - **[examples/README.md](https://github.com/NVIDIA-NeMo/labs-OO-Agents/blob/main/examples/README.md)** — the full progressive tutorial: structured output, tools via `self`, strategies, progressive disclosure with `doc()`, tracing, dynamic prompts, context blocks, summarization, skills, MCP, sandbox, and more.
 - **[Paper](https://arxiv.org/abs/2607.20709)** — design principles, harness details, capability tests, and SWE-bench Verified / Terminal-Bench 2.0 results.
 - **[Blog post](https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/)** — Six Agent Harness Capabilities for Higher Model Performance.
